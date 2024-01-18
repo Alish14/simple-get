@@ -10,7 +10,7 @@ Simple C program using libcurl for downloading files. This project is a part of 
 ## Usage
 ```bash
 # Compile the program
-gcc simple-get.c -lcurl
+gcc simple-get.c -lcurl -o simple-get
 
 # Run the program
 ./simple-get -c config.txt -o /path/to/downloaded_file.txt
